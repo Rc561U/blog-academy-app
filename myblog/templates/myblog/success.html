@@ -1,0 +1,23 @@
+{% extends 'myblog/base.html' %}
+{% load static %}
+{% block title %}Success{% endblock %}
+
+{% block header %}
+    {% include 'myblog/block/header.html' %}
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <nav aria-label="breadcrumb" class="mt-4">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    </ol>
+                </nav>
+                <p class="lead">Your email seccessfully send. Thank You</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

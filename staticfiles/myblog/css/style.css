@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.7;
+    background-color: #dce2e3 !important;
+}
+.breaker{
+    color : black;
+    border : 1px solid rgb(0, 18, 0);
+    margin-bottom : 5px;
+  }
+.navbar-brand {
+    color: #16bf07 !important;
+    font-size: 1.4em;
+    font-weight: 500;
+    
+}
+
+
+.home-slider {
+    padding: 0;
+}
+
+.carousel-caption {
+    bottom: 100px;
+}
+
+.carousel-item {
+    height: 30rem;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.contact{
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+
+
+
+

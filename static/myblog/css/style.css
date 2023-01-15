@@ -1,0 +1,44 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.7;
+    background-color: #dce2e3 !important;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.home-slider {
+    padding: 0;
+}
+
+.home-slider h5{
+    font-size: 60px;
+}
+
+.home-slider p{
+    font-size: 30px;
+}
+.carousel-caption {
+    bottom: 100px;
+}
+
+.carousel-item {
+    height: 20rem;
+}
+
+.nav-contact:hover{
+    color: red !important;
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
